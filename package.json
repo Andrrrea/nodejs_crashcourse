@@ -1,0 +1,27 @@
+{
+  "name": "crash-course",
+  "version": "1.0.0",
+  "description": "Node crash course",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Andrrrea/nodejs_crashcourse.git"
+  },
+  "author": "Andrea Engel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Andrrrea/nodejs_crashcourse/issues"
+  },
+  "homepage": "https://github.com/Andrrrea/nodejs_crashcourse#readme",
+  "dependencies": {
+    "nodegit": "^0.26.5",
+    "uuid": "^7.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
